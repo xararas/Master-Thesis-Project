@@ -1,5 +1,5 @@
 # Movie Booking System
-## Master Thesis Project
+### Master Thesis Project
 
 ![Screenshots](https://www.dropbox.com/s/3airejafl7f6wjw/printscreens.png?dl=0&raw=1)
 
