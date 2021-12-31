@@ -5,7 +5,7 @@ You need to have installed the following on your system:
 
 Then, follow these steps:
 
-1. Download the zip file.
+1. Download the zip file from here <a href="https://drive.google.com/file/d/1t2gXuFZifwNIxELysRjm8AI0L_EQw9o4/view?usp=sharing"></a>.
 2. Extract the zip file. The content of the directory should be:
 
 ✓ Images folder
