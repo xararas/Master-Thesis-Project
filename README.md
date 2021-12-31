@@ -1,5 +1,7 @@
 # Master thesis project: Movie Booking System
 
+![Screenshots](https://www.dropbox.com/s/3airejafl7f6wjw/printscreens.png?dl=0&raw=1)
+
 You need to have installed the following on your system:
 
 ✓ Java 1.8.0 and above
@@ -7,7 +9,7 @@ You need to have installed the following on your system:
 
 Then, follow these steps:
 
-1. Download the zip file from here <a href="https://drive.google.com/file/d/1t2gXuFZifwNIxELysRjm8AI0L_EQw9o4/view?usp=sharing"></a>.
+1. Download the zip file from [here](https://drive.google.com/file/d/1t2gXuFZifwNIxELysRjm8AI0L_EQw9o4/view?usp=sharing).
 2. Extract the zip file. The content of the directory should be:
 
 ✓ Images folder
