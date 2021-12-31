@@ -1,3 +1,6 @@
+# Movie Booking System
+#### Master thesis project for the Computer Science MSc at the University of Birmingham
+
 You need to have installed the following on your system:
 
 ✓ Java 1.8.0 and above
