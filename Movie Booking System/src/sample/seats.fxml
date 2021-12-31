@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SeatsController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="141.0" fitWidth="700.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Images/main.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="7.0" layoutY="246.0" prefHeight="278.0" prefWidth="177.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Label fx:id="totalPriceLabel" layoutY="231.0" prefHeight="17.0" prefWidth="156.0" text="Total Price:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+            <ImageView fx:id="movieImageView" fitHeight="150.0" fitWidth="135.0" layoutY="3.0" pickOnBounds="true" />
+            <Label fx:id="dateLabel" layoutY="162.0" prefHeight="21.0" prefWidth="156.0" text="Date: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeLabel" layoutY="193.0" prefHeight="21.0" prefWidth="156.0" text="Time: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="userLabel" layoutX="14.0" layoutY="147.0" prefHeight="19.0" prefWidth="177.0" text="Welcome ">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <AnchorPane layoutX="186.0" layoutY="169.0" prefHeight="389.0" prefWidth="462.0">
+         <children>
+            <Pane prefHeight="53.0" prefWidth="462.0" style="-fx-background-color: #dcdcdc;">
+               <children>
+                  <Text layoutX="189.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCREEN" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text layoutX="86.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="87.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="87.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="143.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="185.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="228.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="271.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="311.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Button fx:id="A1" layoutX="135.0" layoutY="88.0" mnemonicParsing="false" onAction="#A1ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="A2" layoutX="177.0" layoutY="88.0" mnemonicParsing="false" onAction="#A2ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="A3" layoutX="220.0" layoutY="88.0" mnemonicParsing="false" onAction="#A3ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="A4" layoutX="263.0" layoutY="88.0" mnemonicParsing="false" onAction="#A4ButtonAction" prefHeight="5.0" prefWidth="24.0" />
+            <Button fx:id="A5" layoutX="303.0" layoutY="88.0" mnemonicParsing="false" onAction="#A5ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="B1" layoutX="135.0" layoutY="138.0" mnemonicParsing="false" onAction="#B1ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="B2" layoutX="177.0" layoutY="138.0" mnemonicParsing="false" onAction="#B2ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="B3" layoutX="220.0" layoutY="138.0" mnemonicParsing="false" onAction="#B3ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="B4" layoutX="263.0" layoutY="138.0" mnemonicParsing="false" onAction="#B4ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="B5" layoutX="303.0" layoutY="138.0" mnemonicParsing="false" onAction="#B5ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="C1" layoutX="135.0" layoutY="185.0" mnemonicParsing="false" onAction="#C1ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="C2" layoutX="177.0" layoutY="185.0" mnemonicParsing="false" onAction="#C2ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="C3" layoutX="220.0" layoutY="185.0" mnemonicParsing="false" onAction="#C3ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="C4" layoutX="263.0" layoutY="186.0" mnemonicParsing="false" onAction="#C4ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button fx:id="C5" layoutX="303.0" layoutY="186.0" mnemonicParsing="false" onAction="#C5ButtonAction" prefHeight="11.0" prefWidth="24.0" />
+            <Button layoutX="113.0" layoutY="304.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" />
+            <Button layoutX="225.0" layoutY="305.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" style="-fx-background-color: #228B22;" />
+            <Button layoutX="334.0" layoutY="305.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="24.0" style="-fx-background-color: #B22222;" />
+            <Text layoutX="86.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available Seats" />
+            <Text layoutX="199.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selected Seats" />
+            <Text layoutX="309.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reserved Seats" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="bookButton" layoutX="524.0" layoutY="573.0" mnemonicParsing="false" onAction="#bookButtonAction" prefHeight="27.0" prefWidth="97.0" style="-fx-background-color: #F08080;" text="Βοοκ Now">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="89.0" layoutY="573.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="27.0" prefWidth="97.0" style="-fx-background-color: #F08080;" text="New Search">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="titleLabel" layoutX="6.0" layoutY="221.0" prefHeight="21.0" prefWidth="152.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="menuButton" layoutX="14.0" layoutY="169.0" mnemonicParsing="false" onAction="#menuButtonAction" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #D3D3D3;">
+         <graphic>
+            <ImageView fx:id="menuImageView" fitHeight="21.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/menu.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="72.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="menuAnchorPane" layoutX="15.0" layoutY="207.0" onMouseExited="#hideMenuAnchorPane" prefHeight="91.0" prefWidth="115.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Button fx:id="accountButton" layoutX="1.0" layoutY="27.0" mnemonicParsing="false" onAction="#accountButtonAction" style="-fx-background-color: transparent;" text="User Account" />
+            <Button fx:id="purchaseButton" layoutY="1.0" mnemonicParsing="false" onAction="#purchaseButtonAction" style="-fx-background-color: transparent;" text="My Purchases" />
+            <Button fx:id="logoutButton" layoutX="-3.0" layoutY="52.0" mnemonicParsing="false" onAction="#logoutButtonAction" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: transparent;" text="Log Out" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="585.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AccountController">
+    <children>
+        <ImageView fx:id="imageView" fitHeight="180.0" fitWidth="714.0" layoutX="-14.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../Images/main.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="firstnameTextField" alignment="CENTER" layoutX="270.0" layoutY="299.0" prefHeight="25.0" prefWidth="149.0" />
+        <Label alignment="CENTER" layoutX="182.0" layoutY="303.0" text="Firstname" />
+        <Label alignment="CENTER" layoutX="183.0" layoutY="349.0" text="Lastname" />
+        <TextField fx:id="lastnameTextField" alignment="CENTER" layoutX="270.0" layoutY="345.0" prefHeight="25.0" prefWidth="149.0" />
+        <Label alignment="CENTER" layoutX="180.0" layoutY="260.0" text="Username" />
+        <TextField fx:id="usernameTextField" alignment="CENTER" layoutX="270.0" layoutY="256.0" />
+        <PasswordField fx:id="passwordField" alignment="CENTER" layoutX="269.0" layoutY="437.0" promptText="Enter Your New Password" />
+        <Label alignment="CENTER" layoutX="182.0" layoutY="441.0" text="Password" />
+        <TextField fx:id="emailTextField" alignment="CENTER" layoutX="270.0" layoutY="393.0" />
+        <Label fx:id="messageLabel" alignment="CENTER" layoutX="144.0" layoutY="208.0" prefHeight="19.0" prefWidth="413.0">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font></Label>
+        <Button fx:id="UpdateButton" alignment="CENTER" layoutX="270.0" layoutY="485.0" mnemonicParsing="false" onAction="#UpdateButtonAction" prefHeight="27.0" prefWidth="149.0" style="-fx-background-color: #F08080;" text="Update">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+        <Button fx:id="closeButton" alignment="CENTER" layoutX="270.0" layoutY="530.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #D3D3D3#D3D3D3;" text="Close" />
+        <Label alignment="CENTER" layoutX="183.0" layoutY="397.0" text="Email" />
+    </children>
+</AnchorPane>
