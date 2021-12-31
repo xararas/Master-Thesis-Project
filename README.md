@@ -1,5 +1,4 @@
-# Movie Booking System
-#### Master thesis project for the Computer Science MSc at the University of Birmingham
+# Master thesis project: Movie Booking System
 
 You need to have installed the following on your system:
 
