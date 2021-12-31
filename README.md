@@ -1,7 +1,7 @@
 # Movie Booking System
 ### Master Thesis Project
 
-![Screenshots](https://drive.google.com/drive/folders/1MyfwgYAiPVH4dqmBMjvlYlAsXrcmm6eJ?usp=sharing).
+![Screenshots](https://drive.google.com/file/d/1sUofbyK_1ba5eHpzI10uOXj1NgqIRSEk/view?usp=sharing).
 
 You need to have installed the following on your system:
 
