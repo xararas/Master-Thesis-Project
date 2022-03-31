@@ -13,6 +13,8 @@
 
 <img src="Images/Book_Screen.png" width="600">
 
+<img src="Images/Book_Screen_2.png" width="600">
+
 <img src="Images/User_Purchases.png" width="600">
 
 <img src="Images/User_Booking_Confirmation.png" width="600">
