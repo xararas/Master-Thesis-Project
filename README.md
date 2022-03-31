@@ -7,6 +7,10 @@
 
 <img src="Images/Main_Screen.png" width="600">
 
+<img src="Images/Menu_Option.png" width="600">
+
+<img src="User_Account_Option" width="600">
+
 <img src="Images/Book_Screen.png" width="600">
 
 <img src="Images/User_Purchases.png" width="600">
